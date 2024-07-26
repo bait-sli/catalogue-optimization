@@ -1,7 +1,6 @@
 const fs = require("fs");
 const readline = require("readline");
 const { MongoClient } = require("mongodb");
-const Promise = require("bluebird");
 
 const { memory } = require("./helpers/memory");
 const { timing } = require("./helpers/timing");
